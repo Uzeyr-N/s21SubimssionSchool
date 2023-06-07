@@ -238,6 +238,10 @@ input, select, textarea {
 	.location{
 		width: 100%;
 	}
+	.contact{
+		height: ;
+		
+	}
 
 /* Loader */
 
@@ -3150,14 +3154,22 @@ input, select, textarea {
 
 		.spotlight.style1 .content {
 			border-color: black;
+			background:url("../../images/texture-copy.png");
+			
+			
 		}
 
 		.spotlight.style2 .content {
 			border-color: black;
+			background:url("../../images/texture-copy.png");
+			box-shadow: 10rem 10rem 10rem 1rem rgb(236, 10, 10);
+			opacity: .9;
 		}
 
 		.spotlight.style3 .content {
 			border-color: black;
+			background:url("../../images/texture-copy.png");
+			opacity: .9;
 		}
 
 		.spotlight.inactive .content {
@@ -3524,9 +3536,8 @@ input, select, textarea {
 				border-radius: 100%;
 				display: inline-block;
 				height: 18em;
-				margin-left: 3em;
 				vertical-align: middle;
-				width: 18em;
+				/* width: 18em; */
 			}
 
 				#banner .content .image img {
@@ -3542,7 +3553,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #272833;
+		background: url('//images/texture-copy.png')
 		padding: 6em 0;
 		text-align: center;
 	}
@@ -3565,7 +3576,7 @@ input, select, textarea {
 			}
 
 			#footer .icons .icon.alt:before {
-				color: #272833 !important;
+				color: #fefefe !important;
 				text-shadow: 1px 0 0 rgba(255, 255, 255, 0.5), -1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 0 rgba(255, 255, 255, 0.5), 0 -1px 0 rgba(255, 255, 255, 0.5);
 			}
 
@@ -3862,8 +3873,8 @@ input, select, textarea {
 					}
 
 					#banner .content .image {
-						height: 9em;
-						width: 9em;
+						/* height: 9em;
+						width: 9em; */
 					}
 
 		/* Nav */
