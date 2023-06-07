@@ -755,9 +755,13 @@ input, select, textarea {
 		.row > .off-3 {
 			margin-left: 25%;
 		}
-
+		
+		
 		.row > .col-4 {
 			width: 33.33333%;
+			/* display: inline-flex; */
+			align-self: end;
+			margin-bottom: 1.1rem;
 		}
 
 		.row > .off-4 {
@@ -2216,6 +2220,7 @@ input, select, textarea {
 			max-width: 35em;
 			margin-left: auto;
 			margin-right: auto;
+			display: contents;
 		}
 
 	label {
@@ -3528,16 +3533,16 @@ input, select, textarea {
 				}
 
 				#banner .content header p {
-					margin: 0.5em 0 0 0;
+					margin: 0.5em 0 0.5em 0;
 					top: 0;
 				}
 
 			#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 18em;
+				height: 20em;
 				vertical-align: middle;
-				/* width: 18em; */
+				width: 20em;
 			}
 
 				#banner .content .image img {
@@ -3908,7 +3913,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #272833;
+				/* background: #272833; */
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
@@ -3951,8 +3956,10 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #e44c65;
-						color: rgba(255, 255, 255, 0.5);
+						/* background: rgba(254, 251, 251, 0.941);
+						color: #0000005c;						 */
+						background: transparent;
+						color: #fefefe;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
