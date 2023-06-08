@@ -238,10 +238,10 @@ input, select, textarea {
 	.location{
 		width: 100%;
 	}
-	.contact{
+	/* .contact{
 		height: ;
 		
-	}
+	} */
 
 /* Loader */
 
@@ -760,8 +760,15 @@ input, select, textarea {
 		.row > .col-4 {
 			width: 33.33333%;
 			/* display: inline-flex; */
-			align-self: end;
+			/* align-self: end; */
 			margin-bottom: 1.1rem;
+		}
+
+		.row > .col-4 .contact>input{
+			/* width: 33.33333%; */
+			/* display: inline-flex; */
+			align-self: end;
+			/* margin-bottom: 1.1rem; */
 		}
 
 		.row > .off-4 {
@@ -3558,7 +3565,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: url('//images/texture-copy.png')
+		background: url('//images/texture-copy.png');
 		padding: 6em 0;
 		text-align: center;
 	}
@@ -3877,10 +3884,10 @@ input, select, textarea {
 						font-size: 1.5em;
 					}
 
-					#banner .content .image {
-						/* height: 9em;
-						width: 9em; */
-					}
+					/* #banner .content .image {
+						height: 9em;
+						width: 9em; 
+					} */
 
 		/* Nav */
 
