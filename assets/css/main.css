@@ -2172,7 +2172,7 @@ input, select, textarea {
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
+		font-size: 1.2em;
 		margin-top: -1em;
 		line-height: 1.75em;
 	}
@@ -3142,9 +3142,11 @@ input, select, textarea {
 
 		.spotlight.left .content, .spotlight.right .content {
 			height: 101%;
-			padding: 6em 3em;
+			padding: 3em 1em;
 			top: 0;
-			width: 28em;
+			width: 30em;
+			/* width: 28em; */
+			/* padding: 6em 3em; */
 		}
 
 		.spotlight.left .content {
@@ -3160,15 +3162,13 @@ input, select, textarea {
 		.spotlight.style1 .content {
 			border-color: black;
 			background:url("../../images/texture-copy.png");
-			
-			
 		}
 
 		.spotlight.style2 .content {
 			border-color: black;
 			background:url("../../images/texture-copy.png");
 			box-shadow: 10rem 10rem 10rem 1rem rgb(236, 10, 10);
-			opacity: .9;
+			/* opacity: .9; */
 		}
 
 		.spotlight.style3 .content {
