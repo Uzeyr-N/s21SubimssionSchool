@@ -764,11 +764,8 @@ input, select, textarea {
 			margin-bottom: 1.1rem;
 		}
 
-		.row > .col-4 .contact>input{
-			/* width: 33.33333%; */
-			/* display: inline-flex; */
+		.contact{
 			align-self: end;
-			/* margin-bottom: 1.1rem; */
 		}
 
 		.row > .off-4 {
