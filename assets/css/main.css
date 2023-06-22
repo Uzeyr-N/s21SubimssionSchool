@@ -2578,13 +2578,16 @@ input, select, textarea {
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 20%;
 			}
 
 		.coach{
 			height: 200px;
 			width: 200px;
 		}
+		/* .heroContainer .image .fit .main{
+			display: none;
+		} */
 
 
 /* List */
