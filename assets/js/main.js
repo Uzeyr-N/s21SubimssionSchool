@@ -4,6 +4,24 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+document.addEventListener('DOMContentLoaded', function() {
+
+new Swiper('.swiper', {
+	autoplay:{
+		delay:3000,
+		disableOnInteraction: false,
+	},
+	direction: "horizontal",
+	loop: true,
+	// If we need pagination
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true
+	},
+});
+});
+
+
 (function($) {
 
 	var	$window = $(window),
