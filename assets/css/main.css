@@ -2628,8 +2628,12 @@ input, select, textarea {
 			display: flex;
 			flex-direction: column;
 		}
-
-
+		/*images for gallery page*/
+		.gallery{
+			width: fit-content;
+			object-fit: cover;
+			object-position: center,center;
+		}
 
 
 /* List */
@@ -2825,8 +2829,16 @@ input, select, textarea {
 					.kids>ul>li{
 						list-style:none ;
 					}
-					.swiper-slide > img {
+					.galleryImage > .image.fit > img {
 						width: 100%;
+						display: flex;
+						justify-items: center;
+						height: 50%;
+					}
+					.gallerySwiper{
+						width: 100%;
+						display: flex;
+						justify-self: center;
 					}
 		}
 
