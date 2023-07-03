@@ -678,7 +678,7 @@ input, select, textarea {
 
 		.schedule{
 			display: flex;
-			flex-direction: row;
+			flex-direction: column;
 			justify-content:space-evenly;
 		}
 
@@ -2593,10 +2593,10 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
-
-			.image.fit img {
+			/* taken out due to mainpage display*/
+			/* .image.fit img {
 				width: 20%;
-			}
+			} */
 
 		.coach{
 			height: 200px;
@@ -2607,17 +2607,29 @@ input, select, textarea {
 		} */
 
 		.swiper {
-			width:400px;
-			height: 400px;
+			width:80%;
 			margin: 0;
+			object-fit: cover;
+			object-position: 50% 50%;
+			
 		}
-		.swiper-slide img {
-			width: 100%;
+		.swiper-slide > img {
+			width: 50%;
 		}
 
-		.table{
-			padding: 0 3em 0 0;
+		.kids > table{
+			text-align: center;
+			height: auto;
+			width: 80%;
+			margin: auto;
 		}
+
+		.kids{
+			display: flex;
+			flex-direction: column;
+		}
+
+
 
 
 /* List */
@@ -2640,6 +2652,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			list-style: none;
 		}
 
 		ul.alt {
@@ -2803,7 +2816,18 @@ input, select, textarea {
 						ul.actions:not(.fixed) li .button.icon:before {
 							margin-left: -0.5em;
 						}
-
+					/* added by me for kids booking button*/
+					.kids{
+						display: flex;
+						width: 100%;
+						font-size: 2em;
+					}
+					.kids>ul>li{
+						list-style:none ;
+					}
+					.swiper-slide > img {
+						width: 100%;
+					}
 		}
 
 /* Table */
@@ -4124,6 +4148,13 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+
+			.kids input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, .button.primary {
+					background-color: #ffffff;
+					box-shadow: none;
+					color: black !important;
+					width: 100%;
+				}
 
 		/* Button */
 
