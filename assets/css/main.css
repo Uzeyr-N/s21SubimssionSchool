@@ -2629,7 +2629,7 @@ input, select, textarea {
 		.kidsSwiper .swiper-slide > img {
 			object-fit:fill;
 			width: 35rem;
-			height: 35rem;
+			/* height: 35rem; */
 			object-position: center center;
 			border-radius: 1rem;
 		}
@@ -4251,7 +4251,3 @@ input, select, textarea {
 
 	}
 
-	@media (max-width: 479px) {
-		/* CSS rules for screens smaller than 430 pixels */
-		/* Place your styles here */
-	  }
