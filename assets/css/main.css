@@ -155,6 +155,9 @@ input, select, textarea {
 		font-size: 1.35em;
 		line-height: 1.5em;
 	}
+	.table.kids h3{
+		text-align: center;
+	}
 
 	h4 {
 		font-size: 1.1em;
@@ -637,6 +640,7 @@ input, select, textarea {
 		}
 
 	}
+
 
 /* Container */
 
@@ -1937,6 +1941,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			.kidsGallery{
+				width: 100%;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2602,20 +2610,41 @@ input, select, textarea {
 			height: 200px;
 			width: 200px;
 		}
-		/* .heroContainer .image .fit .main{
-			display: none;
-		} */
 
-		.swiper {
-			width:80%;
+		.heroContainer .image .fit .main{
+			display: none;
+		}
+
+		.kids{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.kidsSwiper{
+			width: 100%;
+			height: 50%;
+			padding: 2rem;
+		}
+
+		.kidsSwiper .swiper-slide > img {
+			object-fit:fill;
+			width: 35rem;
+			height: 35rem;
+			object-position: center center;
+			border-radius: 1rem;
+		}
+
+		@media screen {
+			
+		}
+
+		/* .swiper {
+			width:100%;
 			margin: 0;
 			object-fit: cover;
 			object-position: 50% 50%;
-			
-		}
-		.swiper-slide > img {
-			width: 50%;
-		}
+			border: solid yellow 5px;
+		} */
 
 		.kids > table{
 			text-align: center;
@@ -2624,16 +2653,20 @@ input, select, textarea {
 			margin: auto;
 		}
 
-		.kids{
-			display: flex;
-			flex-direction: column;
+		.gallerySwiper{
+			width: 100%;
+			height: 50%;
+			/* border: white 10px solid; */
 		}
-		/*images for gallery page*/
-		.gallery{
-			width: fit-content;
-			object-fit: cover;
-			object-position: center,center;
+
+		.gallerySwiper .swiper-slide > img {
+			object-fit:fill;
+			width: 100%;
+			height: 35rem;
+			object-position: center center;
+			border: none;
 		}
+
 
 
 /* List */
@@ -2824,7 +2857,7 @@ input, select, textarea {
 					.kids{
 						display: flex;
 						width: 100%;
-						font-size: 2em;
+						/* font-size: 2em; */
 					}
 					.kids>ul>li{
 						list-style:none ;
@@ -3615,7 +3648,7 @@ input, select, textarea {
 				display: inline-block;
 				height: 20em;
 				vertical-align: middle;
-				width: 20em;
+				/* width: 20em; */
 			}
 
 				#banner .content .image img {
@@ -4217,3 +4250,8 @@ input, select, textarea {
 					}
 
 	}
+
+	@media (max-width: 479px) {
+		/* CSS rules for screens smaller than 430 pixels */
+		/* Place your styles here */
+	  }
