@@ -2607,8 +2607,9 @@ input, select, textarea {
 			} */
 
 		.coach{
-			height: 200px;
+			height: 300px;
 			width: 200px;
+			object-fit: cover;
 		}
 
 		.heroContainer .image .fit .main{
@@ -2620,7 +2621,7 @@ input, select, textarea {
 			flex-direction: column;
 		}
 
-		.kidsSwiper{
+		/* .kidsSwiper{
 			width: 100%;
 			height: 50%;
 			padding: 2rem;
@@ -2632,11 +2633,7 @@ input, select, textarea {
 			/* height: 35rem; */
 			object-position: center center;
 			border-radius: 1rem;
-		}
-
-		@media screen {
-			
-		}
+		} */
 
 		/* .swiper {
 			width:100%;
@@ -2655,7 +2652,7 @@ input, select, textarea {
 
 		.gallerySwiper{
 			width: 100%;
-			height: 50%;
+			height: 100%;
 			/* border: white 10px solid; */
 		}
 
@@ -2668,9 +2665,15 @@ input, select, textarea {
 			border: none;
 		}
 
+		.heroImg{
+			width: auto;
+			position: absolute;
+		}
+
 
 
 /* List */
+	
 
 	ol {
 		list-style: decimal;
@@ -3183,7 +3186,7 @@ input, select, textarea {
 		}
 
 		.spotlight:before {
-			background-image: url("images/overlay.png");
+			/* background-image: url("images/overlay.png"); */
 			content: '';
 			display: block;
 			height: 100%;
