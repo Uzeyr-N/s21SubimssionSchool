@@ -34,6 +34,7 @@ section, summary, time, mark, audio, video {
 	p{
 		color: var(--offWhite);
 	}
+	
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2621,9 +2622,9 @@ input, select, textarea {
 			object-fit: cover;
 		}
 
-		.heroContainer .image .fit .main{
+		/* .heroContainer .image .fit .main{
 			display: none;
-		}
+		} */
 
 		.kids{
 			display: flex;
@@ -3208,12 +3209,12 @@ input, select, textarea {
 		}
 
 		.spotlight .image.main {
-			display: none;
+		display: none;
 		}
 
-			.spotlight .image.main img {
-				position: relative;
-			}
+		.spotlight .image.main img {
+		position: relative;
+		}
 
 		.spotlight .content {
 			-moz-transform: translate(0,0);
@@ -3224,7 +3225,8 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(23, 24, 32, 0.95);
+			/* background: rgba(23, 24, 32, 0.95); */
+			/* background:url("../../images/texture-copy.png"); */
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -4230,6 +4232,10 @@ input, select, textarea {
 
 			.spotlight .image.main {
 				max-height: 50vh;
+			}
+
+			.spotlight .image.main img{
+				width: 100%;
 			}
 
 			.spotlight .content {
