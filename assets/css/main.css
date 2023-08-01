@@ -2208,7 +2208,7 @@ input, select, textarea {
 
 	header p {
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 1em 0;
 	}
 
 	header h2 + p {
@@ -2247,7 +2247,7 @@ input, select, textarea {
 		}
 
 	footer.major {
-		margin: 4em 0 0 0;
+		margin: 1em 0 1em 0;
 	}
 
 /* Form */
@@ -3122,10 +3122,6 @@ input, select, textarea {
 		position: relative;
 	}
 
-	#two .spotlight::before img{
-		border:rgb(236, 10, 10) solid 10px;
-	}
-
 		.spotlight:nth-last-of-type(1) {
 			z-index: 1;
 		}
@@ -3234,7 +3230,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
 			/* background: rgba(23, 24, 32, 0.95); */
-			/* background:url("../../images/texture-copy.png"); */
+			background:url("../../images/texture-copy.png");
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3293,20 +3289,20 @@ input, select, textarea {
 
 		.spotlight.style1 .content {
 			border-color: black;
-			background:url("../../images/texture-copy.png");
+			/* background:url("../../images/texture-copy.png"); */
 		}
 
 		.spotlight.style2 .content {
 			border-color: black;
-			background:url("../../images/texture-copy.png");
+			/* background:url("../../images/texture-copy.png"); */
 			box-shadow: 10rem 10rem 10rem 1rem rgb(236, 10, 10);
 			/* opacity: .9; */
 		}
 
 		.spotlight.style3 .content {
 			border-color: black;
-			background:url("../../images/texture-copy.png");
-			opacity: .9;
+			/* background:url("../../images/texture-copy.png"); */
+			/* opacity: .9; */
 		}
 
 		.spotlight.inactive .content {
@@ -3484,6 +3480,7 @@ input, select, textarea {
 		.dropotron > li {
 			border-top: solid 1px rgba(255, 255, 255, 0.035);
 			padding: 0;
+			color: #e44c65;
 		}
 
 			.dropotron > li a, .dropotron > li span {
@@ -3492,6 +3489,8 @@ input, select, textarea {
 				display: block;
 				padding: 0.1em 1em;
 				text-decoration: none;
+				font-size: 1.1em;
+				font-weight: 400;
 			}
 
 			.dropotron > li:first-child {
@@ -3505,6 +3504,7 @@ input, select, textarea {
 		.dropotron.level-0 {
 			font-size: 0.8em;
 			margin-top: 1em;
+			
 		}
 
 			.dropotron.level-0:before {
@@ -3520,6 +3520,7 @@ input, select, textarea {
 				right: 1.5em;
 				top: -0.5em;
 				width: 1em;
+				
 			}
 
 	body.landing .dropotron.level-0 {
@@ -3690,7 +3691,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: url('//images/texture-copy.png');
+		/* background: url('//images/texture-copy.png'); */
 		padding: 0 0;
 		text-align: center;
 	}
@@ -3962,6 +3963,10 @@ input, select, textarea {
 				margin: 0 0 2em 0;
 			}
 
+			.major.heading{
+				padding-top: 3em;
+			}
+
 		/* Goto Next */
 
 			.goto-next:before {
@@ -4151,7 +4156,8 @@ input, select, textarea {
 				}
 
 					#navPanel .link:hover {
-						color: inherit !important;
+						/* color: inherit !important; */
+						color: #e13652;
 					}
 
 					#navPanel .link:first-child {
